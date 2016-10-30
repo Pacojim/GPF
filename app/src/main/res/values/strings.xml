@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GPF</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_jugadores">Jugadores</string>
+    <string name="title_partidos">Partidos</string>
+    <string name="title_caja">Caja</string>
+    <string name="title_cuotas">Cuotas</string>
+    <string name="title_ajustes">Ajustes</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="crear">Crear</string>
+    <string name="title_activity_create_partido">Nuevo partido</string>
+    <string name="foward">Continuar</string>
+    <string name="partidoCrear">Crear partido</string>
+    <string name="insert">Insertar</string>
+    <string name="delete">Borrar</string>
+    <string name="edit">Editar</string>
+    <string name="spinnerTipoTransaccion">Seleccionar el tipo de transacción</string>
+
+</resources>

@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gpf.rebisoft.gpf.ajustes.PlaceholderAjustesTemporadaCreate"
+    android:padding="16dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Temporada :"
+        android:id="@+id/textView22"
+        android:layout_gravity="center_horizontal"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignStart="@+id/linearLayout"
+        android:layout_marginBottom="43dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewButtonMinusTemporada"
+            android:src="@drawable/button_minus"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="2016"
+            android:id="@+id/textViewAnnoInicioNuevaTemporada"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="/"
+            android:id="@+id/textView23"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="2017"
+            android:id="@+id/textViewAnnoFinNuevaTemporada"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewButtonAddTemporada"
+            android:src="@drawable/button_add"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+
+</RelativeLayout>

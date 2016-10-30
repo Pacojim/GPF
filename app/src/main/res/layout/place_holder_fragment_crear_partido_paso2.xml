@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gpf.rebisoft.gpf.fragments.PlaceHolderFragmentCrearPartidoPaso2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:id="@+id/layout_campo_equipo1"
+        android:background="@drawable/campo1"
+        android:gravity="center_vertical|center">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:id="@+id/layout_campo_equipo2"
+        android:background="@drawable/campo2"
+        android:gravity="center_vertical|center">
+
+    </LinearLayout>
+
+</LinearLayout>

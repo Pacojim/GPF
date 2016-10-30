@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrayTipoTransacciones">
+        <item>Pago</item>
+        <item>Ingreso</item>
+    </string-array>
+
+    <string-array name="arrayOpcionesAjustes">
+        <item>Temporadas</item>
+        <item>Cuotas</item>
+        <item>Puntos</item>
+        <item>Personalización</item>
+    </string-array>
+</resources>

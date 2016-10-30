@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_jugadores"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Jugadores" />
+        <item
+            android:id="@+id/drawer_partidos"
+            android:icon="@drawable/ic_view_compact_black_24dp"
+            android:title="Partidos" />
+        <item
+            android:id="@+id/drawer_caja"
+            android:icon="@drawable/ic_trending_up_black_24dp"
+            android:title="Caja" />
+        <item
+            android:id="@+id/drawer_cuotas"
+            android:icon="@drawable/ic_thumb_up_black_24dp"
+            android:title="Cuotas" />
+    </group>
+
+    <group
+        android:id="@+id/menu_buttom"
+        android:checkableBehavior="single">
+    <item
+        android:id="@+id/drawer_ajustes"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="Ajustes" />
+    </group>
+
+</menu>

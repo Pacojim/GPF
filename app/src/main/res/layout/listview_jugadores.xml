@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/imageViewJugadorList"
+        android:layout_gravity="left"
+        android:src="@drawable/jugador_default"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_weight="2"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/textViewNombreJugadorList"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/textViewApellidoJugadorList"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Puntos"
+        android:id="@+id/textView15"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/textViewPuntosJugadorList"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="100"
+        android:id="@+id/textViewPuntosJugadorList"
+        android:layout_gravity="center_vertical|right"
+        android:layout_weight="6"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="33dp"
+        android:layout_alignParentLeft="false"
+        android:gravity="center" />
+
+</RelativeLayout>
