@@ -1,2 +1,2 @@
 # GPF
-App Android para la gestión de peñas de fútbol sala.
+Android App para la gestión de peñas de fútbol sala.
