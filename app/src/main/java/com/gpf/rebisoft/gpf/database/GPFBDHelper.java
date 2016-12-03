@@ -50,7 +50,6 @@ public class GPFBDHelper extends SQLiteOpenHelper{
         db.execSQL(GPFDataSource.INSERT_PARTIDOS_SCRIPT);
         db.execSQL(GPFDataSource.INSERT_TEMPORADA_CUOTAS_SCRIPT);
         db.execSQL(GPFDataSource.INSERT_JUGADOR_PARTIDOS_SCRIPT);
-
     }
 
     /**
